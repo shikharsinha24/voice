@@ -1,4 +1,4 @@
-package com.wenkesj.voice
+package com.shikharsinha24.kannadaaiapp
 
 import com.facebook.react.bridge.Callback
 import com.facebook.react.bridge.ReactApplicationContext
