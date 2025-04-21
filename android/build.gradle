@@ -52,6 +52,10 @@ android {
     namespace "com.shikharsinha24.kannadaaiapp"
     compileSdkVersion = 33
 
+     buildFeatures {
+        buildConfig true
+    }
+
     sourceSets {
       main {
         manifest.srcFile "src/main/AndroidManifestNew.xml"
