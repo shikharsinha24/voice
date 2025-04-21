@@ -49,7 +49,8 @@ def supportsNamespace() {
 
 android {
   if (supportsNamespace()) {
-    namespace "com.wenkesj.voice"
+    namespace "com.shikharsinha24.kannadaaiapp"
+    compileSdkVersion = 33
 
     sourceSets {
       main {
@@ -61,8 +62,8 @@ android {
   
 
   defaultConfig {
-    minSdkVersion getExtOrIntegerDefault("minSdkVersion")
-    targetSdkVersion getExtOrIntegerDefault("targetSdkVersion")
+    minSdkVersion = 21
+    targetSdkVersion = 33
     buildConfigField "boolean", "IS_NEW_ARCHITECTURE_ENABLED", isNewArchitectureEnabled().toString()
 
   }
