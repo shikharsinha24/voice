@@ -58,7 +58,7 @@ android {
     }
   }
 
-  implementation fileTree(dir: "libs", include: ["*.jar"])
+  
 
   defaultConfig {
     minSdkVersion getExtOrIntegerDefault("minSdkVersion")
